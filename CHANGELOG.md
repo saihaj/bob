@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.1.0
+
+### Minor Changes
+
+- 14fa965: Disable commonjs output via package.json
+
+  ```json
+  {
+    "name": "my-package",
+    "bob": {
+      "commonjs": false
+    }
+  }
+  ```
+
 ## 3.0.5
 
 ### Patch Changes
